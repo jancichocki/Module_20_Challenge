@@ -3,6 +3,67 @@
 ## Project Overview
 This project features a Solidity smart contract aimed at simulating a joint savings account. The `JointSavings` contract allows two users to control and manage a joint savings account by depositing and withdrawing Ether (ETH) in a simulated environment. This contract was developed to meet the requirements of a fintech startup aiming to implement blockchain solutions for cross-border, Ethereum-compatible financial services.
 
+```solidity
+pragma solidity ^0.5.5;
+
+// Define a new contract named `JointSavings`
+contract JointSavings {
+    // Declare state variables
+    address payable public accountOne;
+    address payable public accountTwo;
+    address public lastToWithdraw;
+    uint public lastWithdrawAmount;
+    uint public contractBalance;
+
+    // Function to withdraw funds from the joint savings account
+    function withdraw(uint amount, address payable recipient) public {
+        // Require that the recipient is either accountOne or accountTwo
+        require(
+            recipient == accountOne || recipient == accountTwo,
+            "You don't own this account!"
+        );
+
+        // Require that there are enough funds in the contract to perform the withdrawal
+        require(
+            address(this).balance >= amount,
+            "Insufficient funds!"
+        );
+
+        // If lastToWithdraw is not the current recipient, update it
+        if (lastToWithdraw != recipient) {
+            lastToWithdraw = recipient;
+        }
+
+        // Transfer the amount to the recipient
+        recipient.transfer(amount);
+
+        // Update lastWithdrawAmount
+        lastWithdrawAmount = amount;
+
+        // Update contractBalance to the new balance of the contract
+        contractBalance = address(this).balance;
+    }
+
+    // Function to deposit funds into the contract
+    function deposit() public payable {
+        // Update contractBalance to the new balance of the contract
+        contractBalance = address(this).balance;
+    }
+
+    // Function to set the accounts that can withdraw from this contract
+    function setAccounts(address payable account1, address payable account2) public {
+        accountOne = account1;
+        accountTwo = account2;
+    }
+
+    // Fallback function to accept incoming Ether deposits
+    function() external payable {
+        // This function will automatically be called when the contract receives Ether
+        // if it doesn't match any other function or if no data was provided.
+    }
+}
+```
+
 ## Features
 - **Dual Account Management:** The contract supports two user addresses that can independently access the funds.
 - **Deposit Functionality:** Users can deposit Ether into the joint savings account.
