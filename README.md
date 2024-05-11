@@ -49,3 +49,6 @@ Receives Ether sent directly to the contract's address.
 - Use the `withdraw` function to remove Ether from the account, ensuring to handle permissions and balance checks.
 
 ## Screenshots
+![JointSavings1](JointSavings1.jpg "View of JointSavings1")
+![JointSavings2](JointSavings2.jpg "View of JointSavings2")
+
