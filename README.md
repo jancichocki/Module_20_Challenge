@@ -112,39 +112,39 @@ Receives Ether sent directly to the contract's address.
 ## Final Snapshots
 
 ### Initial Deploy
-![Setting Accounts Step 1](./FinalDeploy.jpg)
+![Setting Accounts Step 1](./Snapshots/FinalDeploy.jpg)
 
 ### Setting Accounts - Step 1
-![Setting Accounts Step 1](./FinalSetAccounts1.jpg)
+![Setting Accounts Step 1](./Snapshots/FinalSetAccounts1.jpg)
 
 ### Setting Accounts - Step 2
-![Setting Accounts Step 2](./FinalSetAccounts2.jpg)
+![Setting Accounts Step 2](./Snapshots/FinalSetAccounts2.jpg)
 
 ### Deposit of 1 ETH
-![Deposit of 1 ETH](./FinalDeposit1Eth.jpg)
+![Deposit of 1 ETH](./Snapshots/FinalDeposit1Eth.jpg)
 
 ### Withdrawal After Deposit of 1 ETH
-![Withdrawal After Deposit of 1 ETH](./FinalDeposit1EthWithdraw.jpg)
+![Withdrawal After Deposit of 1 ETH](./Snapshots/FinalDeposit1EthWithdraw.jpg)
 
 ### Checking After Deposit and Withdrawl of 1 ETH
-![Checking After Deposit of 1 ETH](./FinalDeposit1EthCheck.jpg)
+![Checking After Deposit of 1 ETH](./Snapshots/FinalDeposit1EthCheck.jpg)
 
 ### Deposit of 5 ETH
-![Deposit of 5 ETH](./FinalDeposit5Eth.jpg)
+![Deposit of 5 ETH](./Snapshots/FinalDeposit5Eth.jpg)
 
 ### Withdrawal After Deposit of 5 ETH
-![Withdrawal After Deposit of 5 ETH](./FinalDeposit5EthWithdraw.jpg)
+![Withdrawal After Deposit of 5 ETH](./Snapshots/FinalDeposit5EthWithdraw.jpg)
 
 ### Checking After Deposit and Withdrawl of 5 ETH
-![Checking After Deposit of 5 ETH](./FinalDeposit5EthCheck.jpg)
+![Checking After Deposit of 5 ETH](./Snapshots/FinalDeposit5EthCheck.jpg)
 
 ### Initial Deposit of 10 ETH
-![Initial Deposit of 10 ETH - Part A](./FinalDeposit10EthA.jpg)
-![Initial Deposit of 10 ETH - Part B](./FinalDeposit10EthB.jpg)
+![Initial Deposit of 10 ETH - Part A](./Snapshots/FinalDeposit10EthA.jpg)
+![Initial Deposit of 10 ETH - Part B](./Snapshots/FinalDeposit10EthB.jpg)
 
 ### Checking After Deposit of 10 ETH
-![Checking After Deposit](./FinalDeposit10EthWithdrawCheck.jpg)
+![Checking After Deposit](./Snapshots/FinalDeposit10EthWithdrawCheck.jpg)
 
 ### Ganache Interface View
-![Ganache Interface View](./FinalGanacheView.jpg)
+![Ganache Interface View](./Snapshots/FinalGanacheView.jpg)
 
