@@ -109,7 +109,37 @@ Receives Ether sent directly to the contract's address.
 - Use the `deposit` function to add Ether to the account.
 - Use the `withdraw` function to remove Ether from the account, ensuring to handle permissions and balance checks.
 
-## Screenshots
-![JointSavings1](JointSavings1.jpg "View of JointSavings1")
-![JointSavings2](JointSavings2.jpg "View of JointSavings2")
+### Initial Deposit of 10 ETH
+![Initial Deposit of 10 ETH - Part A](./FinalDeposit10EthA.jpg)
+![Initial Deposit of 10 ETH - Part B](./FinalDeposit10EthB.jpg)
+
+### Checking After Deposit of 10 ETH
+![Checking After Deposit](./FinalDeposit10EthWithdrawCheck.jpg)
+
+### Deposit of 1 ETH
+![Deposit of 1 ETH](./FinalDeposit1Eth.jpg)
+
+### Checking After Deposit of 1 ETH
+![Checking After Deposit of 1 ETH](./FinalDeposit1EthCheck.jpg)
+
+### Withdrawal After Deposit of 1 ETH
+![Withdrawal After Deposit of 1 ETH](./FinalDeposit1EthWithdraw.jpg)
+
+### Deposit of 5 ETH
+![Deposit of 5 ETH](./FinalDeposit5Eth.jpg)
+
+### Checking After Deposit of 5 ETH
+![Checking After Deposit of 5 ETH](./FinalDeposit5EthCheck.jpg)
+
+### Withdrawal After Deposit of 5 ETH
+![Withdrawal After Deposit of 5 ETH](./FinalDeposit5EthWithdraw.jpg)
+
+### Ganache Interface View
+![Ganache Interface View](./FinalGanacheView.jpg)
+
+### Setting Accounts - Step 1
+![Setting Accounts Step 1](./FinalSetAccounts1.jpg)
+
+### Setting Accounts - Step 2
+![Setting Accounts Step 2](./FinalSetAccounts2.jpg)
 
