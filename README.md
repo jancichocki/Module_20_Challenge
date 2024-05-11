@@ -142,7 +142,7 @@ Receives Ether sent directly to the contract's address.
 ![Initial Deposit of 10 ETH - Part A](./Snapshots/FinalDeposit10EthA.jpg)
 ![Initial Deposit of 10 ETH - Part B](./Snapshots/FinalDeposit10EthB.jpg)
 
-### Checking After Deposit of 10 ETH
+### Checking After Deposit and Withdrawl of 10 ETH
 ![Checking After Deposit](./Snapshots/FinalDeposit10EthWithdrawCheck.jpg)
 
 ### Ganache Interface View
